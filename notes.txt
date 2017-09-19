@@ -1,0 +1,12 @@
+/*
+
+pi.giphy.com
+
+publicx key 
+
+var api = "https://api.gipht.com/v1/gifs/search?";
+var apiKey = "&api_key=dc6zaTOxFJmzC"
+var query = "&q=rainbow"
+
+
+/v1/gifs/search
