@@ -78,14 +78,6 @@ $("#buttonContainer").empty();
 
 	})
 
-
-	$("button").on("click", function(){
-
-
-		alert("Button Clicker");
-
-	})
-
 $("body").on("click", "button", function(){
 		var buttonAttr = $(this).text().trim().toLowerCase();
 		var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + buttonAttr + "&api_key=dc6zaTOxFJmzC&limit=10";
